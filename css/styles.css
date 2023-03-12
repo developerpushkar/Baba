@@ -1,0 +1,141 @@
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 0;
+    
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    
+    font-family: 'Sacramento', cursive,sans-serif;
+    font-size: 5.62rem;
+    color: #913175;
+ }
+
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #913175;
+    font-weight: normal;
+ }
+
+ h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #CD5888;
+ }
+ p{
+    line-height: 2;
+ }
+
+/*  #E9E8E8 white ,   CD5888-pink ,913175 - dark pink, black - 20262E*/
+.top-container{
+    background-color: #E9E8E8;
+    margin: 0;
+    position: relative;
+    padding: 100px 0;
+}
+
+
+.middle-container{
+    padding: 100px;
+}
+.bottom-container{
+    background-color: #E9E8E8;
+    padding: 50px auto 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;  /* margin is also used here to align it centerly */
+    text-align: left;
+    line-height: 2;
+   
+}
+
+.testing-img{
+    width: 25%;  /* 25% of parent */
+    float: left;  /* to keep image and text in row */
+    margin-right: 30px;
+}
+
+.develop-img{
+    width: 25%;  /* 25% of parent */
+    float: right;  /* to keep image and text in row */
+    margin-left: 30px;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right:250px;
+    top: 50px;
+}
+
+
+hr {
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    color: #A7727D;
+    margin: 60px auto;
+}
+
+.btn{
+
+        background-color: #913175; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px auto 0 auto;
+        border-radius: 20px;
+      
+}
+
+.footer-link{
+    background-color: #E9E8E8; /* Green */
+        border: none;
+        color: #913175;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px auto 0px auto;
+        border-radius: 20px;
+        
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
